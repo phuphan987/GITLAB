@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Nickname[20], G[5], answer[10];
+{ char Nickname[60], G[5], answer[10];
   int i;
   do
   {
@@ -34,7 +34,7 @@ void main()
     else if (strcmp(G, "AB") == 0)
     {
       printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
-      printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
+      printf("  OMG, you can receive blood from all: O, A, B, AB.\n");
     }
     else
     {
